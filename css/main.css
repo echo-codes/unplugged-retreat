@@ -86,7 +86,198 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*---------- Mobile Variations ---------*/
+/* Base Header and Footer Styles */
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #202322;
+  color: #fff;
+  text-align: center;
+}
 
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header img {
+  width: 80%;
+}
+
+.header-divider {
+  border-bottom: 3px solid grey;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
+  list-style-type: none;
+}
+
+header nav ul li {
+  border: 1px solid pink;
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact {
+  width: 100%;
+}
+
+.social {
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.copyright {
+  text-align: center;
+  width: 100%;
+}
+
+/* Main Section - Homepage */
+.hero-area {
+
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #527158;
+  color: #fff;
+}
+
+aside .content-wrapper {
+
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+aside input {
+  width: 70%;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #2a423a;
+  color: #fff;
+}
+
+.feature-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.review-description {
+
+}
+/* Main Section - FAQ */
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #527158;
+  color: #fff;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+/* Main Section - About */
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #527158;
+  color: #fff;
+}
+
+.mission-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #2a423a;
+  color: #fff;
+}
+/*---------- Tablet Variations ------------*/
+
+
+/*---------- Desktop Variations -----------*/
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +451,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
