@@ -86,7 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*---------- Mobile Variations ---------*/
+/*================== Mobile Styles =======================*/
 /* Base Styles */
 html {
   font-size: 16px;
@@ -140,7 +140,7 @@ address {
 .content-wrapper {
   width: 90%;
 }
-/* Base Header and Footer Styles */
+/*---------- Header and Footer Styles -----------*/
 header, footer {
   display: flex;
   justify-content: center;
@@ -153,6 +153,7 @@ header, footer {
 header {
   padding-top: 15px;
 }
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
@@ -197,13 +198,6 @@ header nav ul li {
   font-size: 1.125em;
   font-weight: bold;
   text-transform: uppercase;
-}
-
-header a{
-
-}
-
-footer {
 }
 
 footer .content-wrapper {
@@ -252,7 +246,7 @@ footer i {
   width: 100%;
 }
 
-/*-- Main Section - Homepage --*/
+/*--------- Main Section - Homepage ----------*/
 /*Hero Area*/
 .hero-area {
   background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat;
@@ -277,14 +271,6 @@ aside {
   flex-flow: row wrap;
   background-color: #527158;
   padding: 20px 0 50px 0;
-}
-
-aside .content-wrapper {
-
-}
-
-.form-description {
-
 }
 
 .form {
@@ -369,17 +355,12 @@ input[type=button] {
   width: 90%;
 }
 
-.reviews img {
-
-}
 .reviews h3 {
   margin-top: 10px;
   width: 75%;
 }
-.review-description {
 
-}
-/*-- Main Section - FAQ --*/
+/*------------- Main Section - FAQ ----------*/
 .faq {
   display: flex;
   justify-content: center;
@@ -417,7 +398,7 @@ input[type=button] {
 .question {
   margin: 20px 0;
 }
-/*-- Main Section - About --*/
+/*----------- Main Section - About -------------*/
 /*Mission*/
 .mission {
   display: flex;
@@ -567,7 +548,7 @@ margin-bottom: 15px;
    ========================================================================== */
 
    @media screen and (min-width: 768px) {
-      /*----- Tablet styles -----*/
+      /*================== Tablet styles =============*/
       /* Base Styles */
       h2 {
         font-size: 2.25em;
@@ -590,7 +571,7 @@ margin-bottom: 15px;
         padding: 50px 0;
       }
 
-      /* Header and Footer */
+      /*----------- Header and Footer -----------*/
       header {
         justify-content: space-around;
         text-align: left;
@@ -647,7 +628,7 @@ margin-bottom: 15px;
         width: 100%;
       }
 
-      /*-- Main - Homepage --*/
+      /*------------ Main - Homepage ---------------*/
       /*Hero-Area*/
       .hero-area h1 {
         font-size: 3em;
@@ -718,11 +699,7 @@ margin-bottom: 15px;
         width: 50%;
       }
 
-      /*--Main - FAQ --*/
-      .faq {
-
-      }
-
+      /*------------ Main - FAQ ----------------*/
       .faq .content-wrapper {
         justify-content: space-between;
         align-items: flex-start;
@@ -746,7 +723,7 @@ margin-bottom: 15px;
         line-height: 18px;
       }
 
-      /*--Main - About --*/
+      /*------------- Main - About ------------------*/
       /*Mission*/
       .mission-content {
         display: flex;
@@ -777,7 +754,7 @@ margin-bottom: 15px;
    }
 
    @media screen and (min-width: 1200px) {
-     /*----- Desktop styles -----*/
+ /*================== Desktop styles =================*/
     /*Base Styles*/
     .content-wrapper {
       max-width: 960px;
@@ -788,7 +765,7 @@ margin-bottom: 15px;
       line-height: 1.2em;
     }
 
-    /*Header and Footer*/
+    /*---------- Header and Footer ---------------*/
     header {
       width: 100%;
     }
@@ -810,7 +787,7 @@ margin-bottom: 15px;
       font-size: 1.875em;
     }
 
-    /*--Main - Homepage--*/
+    /*------------ Main - Homepage ---------------*/
     /*Hero Area*/
     .hero-area {
       display: flex;
@@ -874,7 +851,7 @@ margin-bottom: 15px;
       width: 47%;
     }
 
-    /*--Main - FAQ--*/
+    /*------------------ Main - FAQ ---------------*/
     .faq h2 {
       width: 100%;
     }
@@ -887,7 +864,7 @@ margin-bottom: 15px;
       line-height: 1.2em;
     }
 
-    /*--Main - About--*/
+    /*--------------- Main - About -------------------*/
     .mission h2, .contact-section .content-wrapper h2 {
       width: 95%;
     }
