@@ -210,7 +210,12 @@ footer .content-wrapper {
 }
 
 footer p {
+  color: #e2e3ed;
   margin: 0;
+}
+
+footer i {
+  color: #e2e3ed;
 }
 
 .contact {
@@ -220,6 +225,7 @@ footer p {
 
 .social {
   width: 100%;
+  background-color: #fff;
 }
 
 .social-icons {
@@ -317,6 +323,11 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 35px;
 }
 
 .features article {
