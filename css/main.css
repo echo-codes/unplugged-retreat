@@ -424,6 +424,23 @@ input[type=button] {
 margin-bottom: 15px;
 }
 
+/*Map*/
+.map figure {
+  height: 0;
+  padding-bottom: 75%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 /*Contact*/
 .contact-section {
   display: flex;
