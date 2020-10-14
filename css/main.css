@@ -159,6 +159,7 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+  width: 100%;
 }
 
 header figure {
@@ -174,6 +175,7 @@ header figure {
   background-color: #3a3a3a;
   height: 1px;
   width: 100%;
+  margin: 0;
 }
 
 header nav {
@@ -210,12 +212,12 @@ footer .content-wrapper {
 }
 
 footer p {
-  color: #e2e3ed;
   margin: 0;
 }
 
 footer i {
   color: #e2e3ed;
+  font-size: 1.5em;
 }
 
 .contact {
@@ -225,7 +227,6 @@ footer i {
 
 .social {
   width: 100%;
-  background-color: #fff;
 }
 
 .social-icons {
@@ -233,6 +234,16 @@ footer i {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
 .copyright {
@@ -669,6 +680,10 @@ margin-bottom: 15px;
         flex-basis: 50%;
       }
 
+      .features i {
+        font-size: 4em;
+      }
+
       .features-item-description {
         width: 50%;
       }
@@ -828,6 +843,10 @@ margin-bottom: 15px;
 
     .features article {
       flex-basis: 30%;
+    }
+
+    .features i {
+      font-size: 5em;
     }
 
     .features-item-description {
